@@ -1,1 +1,4 @@
 pypdf
+pandas
+seaborn
+matplotlib
