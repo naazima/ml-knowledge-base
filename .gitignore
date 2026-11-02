@@ -1,0 +1,15 @@
+# Private course files (never commit)
+materials/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# MkDocs build output (Phase 2)
+site/
+
+# macOS
+.DS_Store
