@@ -50,11 +50,11 @@ Every card in `cards/` uses this structure:
 
 ## Build phases
 
-- **Phase 1:** folder setup, `.gitignore`, PDF text extraction script, first course's cards (start with `foundations-python-stats`).
+- **Phase 1:** folder setup, `.gitignore`, notebook extraction script (`scripts/extract_notebooks.py`), first course's cards (start with `foundations-python-stats`).
 - **Phase 2:** MkDocs site with search, run locally (`mkdocs serve`).
 - **Phase 3:** `scripts/quiz.py` that picks a random card and asks its quiz questions (daily refresher).
 - **Phase 4 (optional):** ask-my-notes chat (RAG over `cards/` and `notebooks/` only, never over `materials/` output shown publicly).
 
 ## Tech
 
-Python 3, pypdf (text extraction), MkDocs with Material theme, plain markdown.
+Python 3, notebook extraction via `scripts/extract_notebooks.py` (pypdf optional, only if I add PDFs later), MkDocs with Material theme, plain markdown.
